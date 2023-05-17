@@ -1,0 +1,70 @@
+.profile {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.profile-item {
+    background-color: black;
+    width: 200px;
+    display: flex;
+    padding-left: 50px;
+    padding-top: 15px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #6c757d;
+    
+}
+.profile-picture {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    width: 200px;
+    flex-basis: 200px;
+    background-image: url(./../Assest/Images/profile.jpg);
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+}
+.profile-picture-text {
+    width: 100%;
+    margin: 0px;
+    padding-left: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background: rgba(0, 169, 225, 0.5);
+    color: white;
+}
+.profile-item-title:visited {
+    color: #6c757d;
+    margin: 0px;
+}
+.profile-item-title {
+    color: #6c757d;
+    margin: 0px;
+    font-size: medium;
+    padding-bottom: 15px;
+}
+.profile-item-icon {
+    width: 20px;
+    height: 20px;
+    font-size: 15px;
+    color: #6c757d;
+}
+.profile-social {
+    flex: 1;
+    width: 200px;
+    display: flex;
+    align-items: end;
+    justify-content: space-around;
+    background-color: #6c757d;
+}
+.profile-social-facebook {
+    width: 50px;
+    height: 50px;
+}
+.profile-social-instagram {
+    width: 50px;
+    height: 50px;
+}
+.profile-social-linkedIn {
+    width: 50px;
+    height: 50px;
+}
