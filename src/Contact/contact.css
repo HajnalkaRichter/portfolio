@@ -1,0 +1,84 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    color: white;
+    background-color: #00779fcc;
+    
+}
+.contact-head {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px dotted;
+    font-size: 50px;
+    text-shadow: 2px 2px black;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+.contact-concept {
+    display: flex;
+    flex-direction: column;
+}
+.contact-input {
+    display: flex;
+
+}
+.contact-text {
+    margin-top: 30px;
+    font-size: 30px;
+    text-shadow: 2px 2px 5px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.contact-input-name {
+    text-shadow: 2px 2px 5px black;
+    display: flex;
+    flex:1;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.contact-input-name input{
+    width: 100%;
+
+
+}
+.contact-input-email {
+    text-shadow: 2px 2px 5px black;
+    display: flex;
+    flex:1;
+    gap: 10px;
+    margin-right: 100px;
+    margin-top: 30px;
+
+}
+.contact-input-email input{
+    width: 100%;
+
+
+}
+.contact-input-textarea {
+    text-shadow: 2px 2px 5px black;
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.contact-input-textarea textarea {
+    width: 100%;
+    height: 100px;
+}
+.contact-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    border: #6c757d;
+}
+.contact-details {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

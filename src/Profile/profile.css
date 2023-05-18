@@ -29,7 +29,7 @@
     padding-left: 10px;
     padding-top: 15px;
     padding-bottom: 15px;
-    background: rgba(0, 169, 225, 0.5);
+    background: rgba(0, 169, 225, 0.502);
     color: white;
 }
 .profile-item-title:visited {
@@ -55,6 +55,8 @@
     align-items: end;
     justify-content: space-around;
     background-color: #6c757d;
+    border-right: 5px solid black;
+    box-sizing: border-box;
 }
 .profile-social-facebook {
     width: 50px;
