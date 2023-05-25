@@ -1,4 +1,5 @@
-
+import plane from "../Assest/Images/paper-plane-solid.svg"
+import phone from "../Assest/Images/phone-solid.svg"
 
 import "./contact.css";
 
@@ -16,11 +17,11 @@ const Contact = () => {
             <div className="contact-input">
               <div className="contact-input-name">
                   <label>Name</label>
-                  <input type="text"/>
+                  <input type="text" className="contact-name-input"/>
               </div>
               <div className="contact-input-email"> 
                   <label>E-mail</label>   
-                  <input type="email"/>
+                  <input type="email" className="contact-email-input"/>
               </div>
             </div>
             <div className="contact-input-textarea">
@@ -32,8 +33,17 @@ const Contact = () => {
             </div>
           </form>
         <div className="contact-details">
-
-        </div>
+        <div className="contact-personal">
+          <div className="contact-personal-email">
+            <img src={plane} alt="" className="contact-plane-icon"/>
+            <h2>richter.hajnalka29@gmail.com</h2>
+          </div>
+          <div className="contact-personal-phone">
+            <img src={phone} alt="" className="contact-phone-icon"/>
+            <h2>(+44) 7719758319</h2>
+          </div>
+        </div>  
+      </div>
     </div> 
   )
 }

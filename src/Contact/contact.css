@@ -34,17 +34,32 @@
     align-items: center;
 
 }
+.contact-input-email,
 .contact-input-name {
     text-shadow: 2px 2px 5px black;
     display: flex;
     flex:1;
     margin-left: 100px;
     margin-top: 30px;
+    position: relative;
 }
-.contact-input-name input{
-    width: 100%;
-
-
+.contact-input-email label,
+.contact-input-name label {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 100%;
+    transition: all .2s ease-in-out;
+}
+.contact-input-email:has(input:focus) label,
+    .contact-input-name:has(input:focus) label{
+    top: -20px;
+    font-size: 100%;
+}
+.contact-input-email input,
+.contact-input-name input {
+    width: 80%;
+    height: 40px;
 }
 .contact-input-email {
     text-shadow: 2px 2px 5px black;
@@ -53,12 +68,6 @@
     gap: 10px;
     margin-right: 100px;
     margin-top: 30px;
-
-}
-.contact-input-email input{
-    width: 100%;
-
-
 }
 .contact-input-textarea {
     text-shadow: 2px 2px 5px black;
@@ -81,4 +90,30 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex: 1;
+}
+.contact-personal {
+    width: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: space-around;
+}
+.contact-personal-email {
+    text-align: center;
+    color: black;
+    text-shadow: 2px 2px 5px black;
+}
+.contact-personal-phone {
+    text-align: center;
+    color: black;
+    text-shadow: 2px 2px 5px black;
+    
+}
+.contact-plane-icon {
+    width: 50px;
+    height: 50px;
+}
+.contact-phone-icon {
+    width: 50px;
+    height: 50px;
 }
