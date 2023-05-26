@@ -4,7 +4,8 @@
     flex: 1;
     color: white;
     background-color: #00779fcc;
-    
+    padding-left: 150px;
+    padding-right: 150px;
 }
 .contact-head {
     display: flex;
@@ -13,9 +14,6 @@
     font-size: 50px;
     text-shadow: 2px 2px black;
     margin-top: 50px;
-    margin-left: 100px;
-    margin-right: 100px;
-
 }
 .contact-concept {
     display: flex;
@@ -39,12 +37,12 @@
     text-shadow: 2px 2px 5px black;
     display: flex;
     flex:1;
-    margin-left: 100px;
     margin-top: 30px;
     position: relative;
 }
 .contact-input-email label,
-.contact-input-name label {
+.contact-input-name label,
+.contact-input-textarea label {
     position: absolute;
     top: 10px;
     left: 10px;
@@ -52,44 +50,42 @@
     transition: all .2s ease-in-out;
 }
 .contact-input-email:has(input:focus) label,
-    .contact-input-name:has(input:focus) label{
+.contact-input-name:has(input:focus) label,
+.contact-input-textarea:has(textarea:focus) label {
     top: -20px;
     font-size: 100%;
 }
 .contact-input-email input,
 .contact-input-name input {
-    width: 80%;
     height: 40px;
+    width: 100%;
 }
 .contact-input-email {
     text-shadow: 2px 2px 5px black;
     display: flex;
     flex:1;
-    gap: 10px;
-    margin-right: 100px;
     margin-top: 30px;
+    margin-left: 40px;
 }
 .contact-input-textarea {
+    position: relative;
     text-shadow: 2px 2px 5px black;
     margin-top: 30px;
-    margin-left: 100px;
-    margin-right: 100px;
 }
 .contact-input-textarea textarea {
     width: 100%;
     height: 100px;
 }
 .contact-button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 30px;
-    border: #6c757d;
+    margin: 30px auto 0;
+    border: 1px solid #6c757d;
+    width: fit-content;
+    padding: 5px;
 }
 .contact-details {
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: end;
     flex: 1;
 }
 .contact-personal {
@@ -110,10 +106,10 @@
     
 }
 .contact-plane-icon {
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
 }
 .contact-phone-icon {
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
 }

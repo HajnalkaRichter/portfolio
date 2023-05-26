@@ -17,30 +17,28 @@ const Contact = () => {
             <div className="contact-input">
               <div className="contact-input-name">
                   <label>Name</label>
-                  <input type="text" className="contact-name-input"/>
+                  <input type="text"/>
               </div>
               <div className="contact-input-email"> 
                   <label>E-mail</label>   
-                  <input type="email" className="contact-email-input"/>
+                  <input type="email"/>
               </div>
             </div>
             <div className="contact-input-textarea">
                 <label>How can I help you?</label>
                 <textarea></textarea>
             </div>
-            <div className="contact-button">
-                <button>SEND MESSAGE</button>
-            </div>
+            <div className="contact-button">SEND MESSAGE</div>
           </form>
         <div className="contact-details">
         <div className="contact-personal">
           <div className="contact-personal-email">
             <img src={plane} alt="" className="contact-plane-icon"/>
-            <h2>richter.hajnalka29@gmail.com</h2>
+            <p>richter.hajnalka29@gmail.com</p>
           </div>
           <div className="contact-personal-phone">
             <img src={phone} alt="" className="contact-phone-icon"/>
-            <h2>(+44) 7719758319</h2>
+            <p>(+44) 7719758319</p>
           </div>
         </div>  
       </div>
