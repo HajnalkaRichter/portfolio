@@ -26,11 +26,11 @@ const ListItem = (props: IListItem) => {
 
 const Profile = () => {
     const profileData: IListItem[] = [
-      {id: 1, image: "lnr lnr-home", title: "Home", titleLink:""},
-      {id: 2, image: "lnr lnr-user", title: "About Me", titleLink:""},
-      {id: 3, image: "lnr lnr-license", title: "Resume", titleLink:""},
-      {id: 4, image: "lnr lnr-briefcase", title: "Portfolio", titleLink:""},
-      {id: 5, image: "lnr lnr-envelope", title: "Contact", titleLink:""}
+      {id: 1, image: "lnr lnr-home", title: "Home", titleLink:"/home"},
+      {id: 2, image: "lnr lnr-user", title: "About Me", titleLink:"/about-me"},
+      {id: 3, image: "lnr lnr-license", title: "Resume", titleLink:"/resume"},
+      {id: 4, image: "lnr lnr-briefcase", title: "Portfolio", titleLink:"/portfolio"},
+      {id: 5, image: "lnr lnr-envelope", title: "Contact", titleLink:"/contact"}
     ];
 
     return (<div className="profile">
