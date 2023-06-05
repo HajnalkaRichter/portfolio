@@ -1,13 +1,16 @@
+import "./portfolio.css";
 
-
-import './portfolio.css';
-
-function Portfolio() {
+const Portfolio = () => {
   return (
-    <div className="portfolio">
-    
+    <div className="page portfolio">
+      <div className="portfolio-head">
+        <div>Portfolio</div>
+        <div className="lnr lnr-briefcase"></div>
+      </div>
+      <div className="portfolio-project">
+      </div>
     </div>
   );
-}
+};
 
 export default Portfolio;

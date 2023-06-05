@@ -18,7 +18,7 @@ const Contact = () => {
     );
   }
   return (
-    <div className="contact">
+    <div className="page contact">
       <div className="contact-head">
         <div>Contact Me.</div>
         <div className="lnr lnr-envelope"></div>

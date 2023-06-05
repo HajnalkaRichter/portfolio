@@ -1,7 +1,12 @@
 .app {
-    height: 100%;
+    min-height: 100%;
     display: flex;
+
 }
 #root {
     height: 100%;
+}
+
+.page {
+    margin-left: 200px;
 }

@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     height: 100%;
+    position: fixed;
 }
 .profile-item {
     background-color: black;
@@ -29,7 +30,7 @@
     padding-left: 10px;
     padding-top: 15px;
     padding-bottom: 15px;
-    background: rgba(0, 169, 225, 0.502);
+    background: #00a9e180;
     color: white;
 }
 .profile-item-link,
