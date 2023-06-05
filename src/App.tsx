@@ -1,15 +1,12 @@
-import Profile from './Profile';
-import {
-  createBrowserRouter,
-  RouterProvider,
-} from "react-router-dom";
+import Profile from "./Profile";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
-import './App.css';
-import Contact from './Contact';
-import Home from './Home';
-import Aboutme from './Aboutme';
-import Resume from './Resume';
-import Portfolio from './Portfolio';
+import "./App.css";
+import Contact from "./Contact";
+import Home from "./Home";
+import Aboutme from "./Aboutme";
+import Resume from "./Resume";
+import Portfolio from "./Portfolio";
 
 const router = createBrowserRouter([
   {

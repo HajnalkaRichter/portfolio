@@ -1,0 +1,29 @@
+.resume {
+    width: 100%;
+    padding-top: 50px;
+    background-color: #00779fcc;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.resume-head {
+    display: flex;
+    justify-content: space-between;
+    font-size: 50px;
+    text-shadow: 2px 2px black;
+    color: white;
+    border-bottom: 1px dotted white;   
+}
+.resume-title {
+    margin-top: 30px;
+    font-size: 15px;
+    text-shadow: 2px 2px 5px black;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+.resume-title,
+.resume-address,
+.resume-text {
+    display: flex;
+    align-items: center;
+}
