@@ -52,8 +52,8 @@
 }
 .resume-concept-line {
     width: 15px;
-    height: calc(100% - 26px);
-    border: 3px solid #525551;
+    height: calc(100% - 30px);
+    border: 3px solid black;
     border-left: 0;
     position: absolute;
     
@@ -63,6 +63,6 @@
 .resume-from,
 .resume-to {
     margin: 0;
-    color: #525551;
+    color: black;
     font-weight: bold;
 }

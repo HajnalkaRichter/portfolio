@@ -1,6 +1,3 @@
-import facebook from "../Assest/Images/facebook.png";
-import instagram from "../Assest/Images/instagram.png";
-import linkedIn from "../Assest/Images/indeed.png";
 
 import "./profile.css";
 
@@ -44,9 +41,8 @@ const Profile = () => {
         })}
       </div>
       <div className="profile-social">
-        <img src={instagram} alt="" className="profile-social-instagram" />
-        <img src={facebook} alt="" className="profile-social-facebook" />
-        <img src={linkedIn} alt="" className="profile-social-linkedIn" />
+        <i className="profile-icon fa fa-linkedin-square"></i>
+        <i className="profile-icon fa fa-facebook-square"></i>
       </div>
     </div>
   );

@@ -13,6 +13,43 @@
     text-shadow: 2px 2px black;
     color: white;
 }
+.about-concept {
+    display: flex;
+    color: white;
+    padding-top: 30px;
+}
+.about-title {
+    font-size: 40px;
+    text-shadow: 2px 2px 5px black;
+    display: flex;
+    justify-content: center;
+}
+.aboutme-text {
+    padding-top: 20px;
+    text-align: justify;
+    line-height: 25px;
+}
 .about-details {
-
+    text-wrap: nowrap;
+    list-style-type: none;
+}
+.about-details li {
+    padding-bottom: 10px;
+}
+.about-details-title {
+    text-shadow: 2px 2px 5px black;
+}
+.about-button {
+    display: flex;
+    align-items: center;
+    margin: 30px auto 0;
+    border: 1px solid black;
+    width: fit-content;
+    padding: 5px;
+    background: none;
+    color: white;
+}
+.about-button:hover {
+    background-color: black;
+    cursor: pointer;
 }

@@ -7,10 +7,14 @@ const Aboutme = () => {
         <div>About Me</div>
         <div className="lnr lnr-user"></div>
       </div>
-      <div className="about-text">
-        <div className="about-title">Developer</div>
-        <div className="aboutme-text">I am a highly motivated and detail-oriented individual with a passion for ensuring the quality and functionality of software products. As a beginner in the field of Quality Assurance, I am eager to learn and grow in this industry. I possess strong analytical and problem-solving skills, and I am able to think critically and independently. I am also an excellent communicator and am able to work effectively in a team environment.</div>
-      </div>
+      <div className="about-concept">
+        <div className="about-text">
+          <div className="about-title">Developer</div>
+          <div className="aboutme-text">
+            Although I may not have a formal academic degree, I have acquired practical skills and knowledge through various certificate programs and self-guided learning, making me well-equipped to contribute to your development team. Through my dedication and passion for coding, I have actively pursued certifications. These programs have provided me with hands-on experience in developing practical projects and understanding industry best practices. Additionally, I have proactively engaged in online coding communities, participated in open-source projects, and collaborated with other
+            developers to enhance my skills and broaden my knowledge base. While I may not possess professional experience, I am a fast learner, self-motivated, and possess a strong work ethic. I have a natural inclination towards problem-solving and am adept at breaking down complex issues into manageable tasks. I embrace challenges as opportunities for growth and constantly seek new ways to improve my coding abilities.
+          </div>
+        </div>
         <ul className="about-details">
           <h2 className="about-details-title">Personal Information</h2>
           <li>
@@ -36,6 +40,8 @@ const Aboutme = () => {
           </li>
         </ul>
       </div>
+      <input className="about-button" type="submit" value="DOWNLOAD CV" />
+    </div>
   );
 };
 

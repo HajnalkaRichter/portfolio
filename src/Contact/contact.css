@@ -34,11 +34,12 @@
 }
 .contact-input-email,
 .contact-input-name {
-    text-shadow: 2px 2px 5px black;
+    font-weight: bold;
     display: flex;
     flex:1;
     margin-top: 30px;
     position: relative;
+    color: black;
 }
 .contact-input-email label,
 .contact-input-name label,
@@ -48,11 +49,12 @@
     left: 10px;
     font-size: 100%;
     transition: all .2s ease-in-out;
+    color: black;
 }
 .contact-input-email:has(input:focus) label,
 .contact-input-name:has(input:focus) label,
 .contact-input-textarea:has(textarea:focus) label {
-    top: -20px;
+    top: -25px;
     font-size: 100%;
 }
 .contact-input-email input,
@@ -61,7 +63,6 @@
     width: 100%;
 }
 .contact-input-email {
-    text-shadow: 2px 2px 5px black;
     display: flex;
     flex:1;
     margin-top: 30px;
@@ -69,7 +70,7 @@
 }
 .contact-input-textarea {
     position: relative;
-    text-shadow: 2px 2px 5px black;
+    font-weight: bold;
     margin-top: 30px;
 }
 .contact-input-textarea textarea {
@@ -78,14 +79,14 @@
 }
 .contact-button {
     margin: 30px auto 0;
-    border: 1px solid #6c757d;
+    border: 1px solid black;
     width: fit-content;
     padding: 5px;
     background: none;
     color: white;
 }
 .contact-button:hover {
-    background-color: #6c757d;
+    background-color: black;
     cursor: pointer;
 }
 .contact-details {
@@ -103,13 +104,12 @@
 .contact-personal-email {
     text-align: center;
     color: black;
-    text-shadow: 2px 2px 5px black;
+    font-weight: bold;
 }
 .contact-personal-phone {
     text-align: center;
     color: black;
-    text-shadow: 2px 2px 5px black;
-    
+    font-weight: bold;
 }
 .contact-plane-icon {
     width: 30px;
