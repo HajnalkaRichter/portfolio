@@ -1,15 +1,13 @@
 .portfolio {
-    width: 100%;
-    padding-top: 50px;
-    background-color: #00779fcc;
-    padding-left: 150px;
-    padding-right: 150px;
+  width: 100%;
+  padding-top: 50px;
+  background-color: #00779fcc;
 }
 .portfolio-head {
-    display: flex;
-    justify-content: space-between;
-    border-bottom: 1px dotted;
-    font-size: 50px;
-    text-shadow: 2px 2px black;
-    color: white;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px dotted;
+  font-size: 50px;
+  text-shadow: 2px 2px black;
+  color: white;
 }

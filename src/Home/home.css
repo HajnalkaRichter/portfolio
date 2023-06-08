@@ -1,37 +1,40 @@
 .home {
-    background-size: 100% 100%;
-    width: 100%;
-    background-image: url("../Assest/Images/develop.jpg");
-    background-repeat: no-repeat;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  background-size: 100% 100%;
+  width: 100%;
+  background-image: url("../Assest/Images/develop.jpg");
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 .home-name {
-    box-sizing: border-box;
-    border: 2px solid #00000076;
-    border-radius: 25px;
-    background-color: #00000076;
-    color: #02c0ffd1;
-    font-style: italic;
-    font-size: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  box-sizing: border-box;
+  border: 2px solid #00000076;
+  border-radius: 25px;
+  background-color: #00000076;
+  color: #02c0ffd1;
+  font-style: italic;
+  font-size: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px;
+  padding: 0 20px;
+  text-align: center;
 }
 .home-text {
-    color: white;
-    font-weight: bold;
-    border-bottom: white dotted 2px;
-    font-size: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  color: white;
+  font-weight: bold;
+  border-bottom: white dotted 2px;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .home-text-change {
-    color: #02c0ffd1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  color: #02c0ffd1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

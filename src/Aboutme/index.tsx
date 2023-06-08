@@ -38,9 +38,11 @@ const Aboutme = () => {
           <li>
             <b>Freelance: </b>Available
           </li>
+          <a className="about-button" download="HajnalcaRichterCV.pdf" href="src\Assest\files\HajnalcaRichterCV.pdf">
+            Download CV
+          </a>
         </ul>
       </div>
-        <input className="about-button" type="submit" value="DOWNLOAD CV" />
     </div>
   );
 };

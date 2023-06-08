@@ -1,3 +1,4 @@
+import { useState } from "react";
 import "./profile.css";
 
 export interface IListItem {
@@ -21,6 +22,8 @@ const ListItem = (props: IListItem) => {
 };
 
 const Profile = () => {
+  const [showMenu, setShowMenu] = useState(true);
+
   const profileData: IListItem[] = [
     { id: 1, image: "lnr lnr-home", title: "Home", titleLink: "/home" },
     { id: 2, image: "lnr lnr-user", title: "About Me", titleLink: "/about-me" },
@@ -30,7 +33,15 @@ const Profile = () => {
   ];
 
   return (
-    <div className="profile">
+    <div className={`profile ${showMenu ? "profile-active" : ""}`}>
+      <div
+        className="profile-toggle"
+        onClick={() => {
+          setShowMenu(!showMenu);
+        }}
+      >
+        <i className={`toggle-icon fa fa-arrow-left ${showMenu ? "toggle-icon-active" : ""}`}></i>
+      </div>
       <div className="profile-picture">
         <h2 className="profile-picture-text">Hajnalka Richter</h2>
       </div>

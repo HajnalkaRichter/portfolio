@@ -1,3 +1,4 @@
+import { useState } from "react";
 import plane from "../Assest/Images/paper-plane-solid.svg";
 import phone from "../Assest/Images/phone-solid.svg";
 import emailjs from "emailjs-com";
@@ -5,6 +6,10 @@ import emailjs from "emailjs-com";
 import "./contact.css";
 
 const Contact = () => {
+  const [nameValue, setNameValue] = useState("");
+  const [emailValue, setEmailValue] = useState("");
+  const [textValue, setTextValue] = useState("");
+  console.log("nameValue,nameValue", nameValue);
   function sendEmail(e: any) {
     e.preventDefault();
 
@@ -28,20 +33,40 @@ const Contact = () => {
           <h2>LET'S TALK</h2>
         </div>
         <div className="contact-input">
-          <div className="contact-input-name">
+          <div className={`contact-input-name ${nameValue ? "contact-input-name-active" : ""}`}>
             <label>Name</label>
-            <input name="from_name" type="text" />
+            <input
+              name="from_name"
+              type="text"
+              required
+              onChange={(e) => {
+                setNameValue(e.target.value);
+              }}
+            />
           </div>
-          <div className="contact-input-email">
+          <div className={`contact-input-email ${emailValue ? "contact-input-name-active" : ""}`}>
+            <input
+              name="reply_to"
+              type="email"
+              required
+              onChange={(e) => {
+                setEmailValue(e.target.value);
+              }}
+            />
             <label>E-mail</label>
-            <input name="reply_to" type="email" />
           </div>
         </div>
-        <div className="contact-input-textarea">
+        <div className={`contact-input-textarea ${textValue ? "contact-input-name-active" : ""}`}>
           <label>How can I help you?</label>
-          <textarea name="message"></textarea>
+          <textarea
+            name="message"
+            required
+            onChange={(e) => {
+              setTextValue(e.target.value);
+            }}
+          ></textarea>
         </div>
-        <input className="contact-button" type="submit" value="SEND MESSAGE" />
+        <input className="contact-button" type="submit" value="Send message" />
       </form>
       <div className="contact-details">
         <div className="contact-personal">

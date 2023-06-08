@@ -1,121 +1,122 @@
 .contact {
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-    color: white;
-    background-color: #00779fcc;
-    padding-left: 150px;
-    padding-right: 150px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  color: white;
+  background-color: #00779fcc;
 }
 .contact-head {
-    display: flex;
-    justify-content: space-between;
-    border-bottom: 1px dotted;
-    font-size: 50px;
-    text-shadow: 2px 2px black;
-    margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px dotted;
+  font-size: 50px;
+  text-shadow: 2px 2px black;
+  margin-top: 50px;
 }
 .contact-concept {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 .contact-input {
-    display: flex;
-
+  display: flex;
 }
 .contact-text {
-    margin-top: 30px;
-    font-size: 30px;
-    text-shadow: 2px 2px 5px black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
+  margin-top: 30px;
+  font-size: 30px;
+  text-shadow: 2px 2px 5px black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .contact-input-email,
 .contact-input-name {
-    font-weight: bold;
-    display: flex;
-    flex:1;
-    margin-top: 30px;
-    position: relative;
-    color: black;
+  font-weight: bold;
+  display: flex;
+  flex: 1;
+  margin-top: 30px;
+  position: relative;
+  color: black;
 }
 .contact-input-email label,
 .contact-input-name label,
 .contact-input-textarea label {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    font-size: 100%;
-    transition: all .2s ease-in-out;
-    color: black;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 100%;
+  transition: all 0.2s ease-in-out;
+  color: black;
 }
+
+.contact-input-name-active label,
+.contact-input-email-active label,
+.contact-input-textarea-active label,
 .contact-input-email:has(input:focus) label,
 .contact-input-name:has(input:focus) label,
 .contact-input-textarea:has(textarea:focus) label {
-    top: -25px;
-    font-size: 100%;
+  top: -25px;
+  font-size: 100%;
 }
 .contact-input-email input,
 .contact-input-name input {
-    height: 40px;
-    width: 100%;
+  height: 40px;
+  width: 100%;
 }
 .contact-input-email {
-    display: flex;
-    flex:1;
-    margin-top: 30px;
-    margin-left: 40px;
+  display: flex;
+  flex: 1;
+  margin-top: 30px;
+  margin-left: 40px;
 }
 .contact-input-textarea {
-    position: relative;
-    font-weight: bold;
-    margin-top: 30px;
+  position: relative;
+  font-weight: bold;
+  margin-top: 30px;
 }
 .contact-input-textarea textarea {
-    width: 100%;
-    height: 100px;
+  width: 100%;
+  height: 100px;
 }
 .contact-button {
-    margin: 30px auto 0;
-    border: 1px solid black;
-    width: fit-content;
-    padding: 5px;
-    background: none;
-    color: white;
+  margin: 30px auto 0;
+  border: 1px solid black;
+  width: fit-content;
+  padding: 5px;
+  background: none;
+  color: white;
+  text-transform: uppercase;
 }
 .contact-button:hover {
-    background-color: black;
-    cursor: pointer;
+  background-color: black;
+  cursor: pointer;
 }
 .contact-details {
-    display: flex;
-    justify-content: space-around;
-    align-items: end;
-    flex: 1;
+  display: flex;
+  justify-content: space-around;
+  align-items: end;
+  flex: 1;
 }
 .contact-personal {
-    width: 100%;
-    display: flex;
-    align-items: end;
-    justify-content: space-around;
+  width: 100%;
+  display: flex;
+  align-items: end;
+  justify-content: space-around;
 }
 .contact-personal-email {
-    text-align: center;
-    color: black;
-    font-weight: bold;
+  text-align: center;
+  color: black;
+  font-weight: bold;
 }
 .contact-personal-phone {
-    text-align: center;
-    color: black;
-    font-weight: bold;
+  text-align: center;
+  color: black;
+  font-weight: bold;
 }
 .contact-plane-icon {
-    width: 30px;
-    height: 30px;
+  width: 30px;
+  height: 30px;
 }
 .contact-phone-icon {
-    width: 30px;
-    height: 30px;
+  width: 30px;
+  height: 30px;
 }
