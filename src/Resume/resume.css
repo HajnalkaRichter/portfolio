@@ -1,68 +1,84 @@
 .resume {
-    width: 100%;
-    padding-top: 50px;
-    background-color: #00779fcc;
-    padding-left: 150px;
-    padding-right: 150px;
+  width: 100%;
+  padding-top: 50px;
+  background-color: #00779fcc;
+  padding-left: 150px;
+  padding-right: 150px;
 }
+/* Small devices (landscape phones, 576px and up)*/
+@media (max-width: 576px) {
+  .resume {
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 992px) {
+  .resume {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+
 .resume-head {
-    display: flex;
-    justify-content: space-between;
-    font-size: 50px;
-    text-shadow: 2px 2px black;
-    color: white;
-    border-bottom: 1px dotted white;   
+  display: flex;
+  justify-content: space-between;
+  font-size: 50px;
+  text-shadow: 2px 2px black;
+  color: white;
+  border-bottom: 1px dotted white;
 }
 .resume-first-title {
-    margin-top: 30px;
-    font-size: 15px;
-    text-shadow: 2px 2px 5px black;
-    display: flex;
-    justify-content: space-around;
-    color: white;
+  margin-top: 30px;
+  font-size: 15px;
+  text-shadow: 2px 2px 5px black;
+  display: flex;
+  justify-content: space-around;
+  color: white;
 }
 .resume-experience,
 .resume-education {
-    flex: 1;
+  flex: 1;
 }
 .resume-title {
-    color: white;
-    text-shadow: 2px 2px 5px black;
+  color: white;
+  text-shadow: 2px 2px 5px black;
 }
 .resume-text,
 .resume-address {
-    color: rgba(255, 255, 255, 0.634); 
+  color: rgba(255, 255, 255, 0.634);
 }
 
 .resume-concept {
-    display: flex;
+  display: flex;
 }
 .resume-concept-left {
-    position: relative;
-    flex:1;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  position: relative;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .resume-concept-right {
-    margin-left: 30px;
+  margin-left: 30px;
 }
 .resume-concept {
-    flex:4;
+  flex: 4;
 }
 .resume-concept-line {
-    width: 15px;
-    height: calc(100% - 30px);
-    border: 3px solid black;
-    border-left: 0;
-    position: absolute;
-    
-    right: -20px;
-    top: 13px;
+  width: 15px;
+  height: calc(100% - 30px);
+  border: 3px solid black;
+  border-left: 0;
+  position: absolute;
+
+  right: -20px;
+  top: 13px;
 }
 .resume-from,
 .resume-to {
-    margin: 0;
-    color: black;
-    font-weight: bold;
+  margin: 0;
+  color: black;
+  font-weight: bold;
 }
