@@ -58,12 +58,12 @@ const Resume = () => {
       <div style={{ display: "flex" }}>
         <div className="resume-experience">
           {resumeexperienceData.map((resumeItem: IListItem) => {
-            return <ListItem {...resumeItem}></ListItem>;
+            return <ListItem key={resumeItem.id} {...resumeItem}></ListItem>;
           })}
         </div>
         <div className="resume-education">
           {resumeeducationData.map((resumeItem: IListItem) => {
-            return <ListItem {...resumeItem}></ListItem>;
+            return <ListItem key={resumeItem.id} {...resumeItem}></ListItem>;
           })}
         </div>
       </div>

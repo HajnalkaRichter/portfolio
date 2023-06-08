@@ -9,7 +9,7 @@ const Contact = () => {
   const [nameValue, setNameValue] = useState("");
   const [emailValue, setEmailValue] = useState("");
   const [textValue, setTextValue] = useState("");
-  console.log("nameValue,nameValue", nameValue);
+
   function sendEmail(e: any) {
     e.preventDefault();
 
@@ -22,6 +22,7 @@ const Contact = () => {
       }
     );
   }
+
   return (
     <div className="page contact">
       <div className="contact-head">

@@ -3,6 +3,5 @@
   "name": "Portfolio",
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "",
-  "background_color": ""
+  "theme_color": "#000000"
 }

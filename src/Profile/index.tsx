@@ -47,7 +47,7 @@ const Profile = () => {
       </div>
       <div className="profile-menu">
         {profileData.map((profileItem: IListItem) => {
-          return <ListItem {...profileItem}></ListItem>;
+          return <ListItem key={profileItem.id} {...profileItem}></ListItem>;
         })}
       </div>
       <div className="profile-social">
