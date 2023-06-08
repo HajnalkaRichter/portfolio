@@ -1,4 +1,3 @@
-
 import "./profile.css";
 
 export interface IListItem {
@@ -13,8 +12,8 @@ const ListItem = (props: IListItem) => {
 
   return (
     <section className={`profile-item `}>
-      <div className={`profile-item-icon ${props.image}`}></div>
       <a href={titleLink} className="profile-item-link">
+        <div className={`profile-item-icon ${props.image}`}></div>
         <h2 className="profile-item-title">{title}</h2>
       </a>
     </section>
@@ -41,8 +40,8 @@ const Profile = () => {
         })}
       </div>
       <div className="profile-social">
-        <i className="profile-icon fa fa-linkedin-square"></i>
-        <i className="profile-icon fa fa-facebook-square"></i>
+        <a className="profile-icon fa fa-linkedin-square" href="https://www.linkedin.com/in/hajnalka-richter-240623260/" target="_blank"></a>
+        <a className="profile-icon fa fa-facebook-square" href="https://www.facebook.com/hajnalka.richter.14/" target="_blank"></a>
       </div>
     </div>
   );

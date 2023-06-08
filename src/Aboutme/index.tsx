@@ -40,7 +40,7 @@ const Aboutme = () => {
           </li>
         </ul>
       </div>
-      <input className="about-button" type="submit" value="DOWNLOAD CV" />
+        <input className="about-button" type="submit" value="DOWNLOAD CV" />
     </div>
   );
 };

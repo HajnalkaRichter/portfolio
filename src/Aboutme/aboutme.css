@@ -42,12 +42,14 @@
 .about-button {
     display: flex;
     align-items: center;
+    justify-content: center;
     margin: 30px auto 0;
     border: 1px solid black;
     width: fit-content;
-    padding: 5px;
+    padding: 20px;
     background: none;
     color: white;
+    margin-left: 200px;
 }
 .about-button:hover {
     background-color: black;
