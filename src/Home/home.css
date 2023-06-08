@@ -8,6 +8,21 @@
     align-items: center;
     flex-direction: column;
 }
+/* Small devices (landscape phones, 576px and up)*/
+@media (max-width: 576px) {
+    .home {
+      padding-top: 30px;
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+  }
+  /* Large devices (desktops, 992px and up) */
+  @media (max-width: 992px) {
+    .home {
+      padding-left: 50px;
+      padding-right: 50px;
+    }
+  }
 .home-name {
     box-sizing: border-box;
     border: 2px solid #00000076;
